@@ -21,7 +21,7 @@ Expected output: `Output written on main_<company>.pdf (2 pages, ...)`. Any page
 ## Document Structure
 
 ```latex
-\documentclass[11pt,a4paper,sans]{moderncv}
+\documentclass[11pt,letterpaper,sans]{moderncv}
 \moderncvstyle{banking}
 \moderncvcolor{blue}
 
@@ -39,18 +39,18 @@ Expected output: `Output written on main_<company>.pdf (2 pages, ...)`. Any page
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Craig Sprecher - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.77]{geometry}
 \usepackage{import}
 
 % Personal data
-\name{[FIRST_NAME]}{[LAST_NAME]}
-\address{[YOUR_ADDRESS]}{}{}
-\phone[mobile]{[YOUR_PHONE]}
-\email{[YOUR_EMAIL]}
-\extrainfo{\href{[YOUR_LINKEDIN_URL]}{LinkedIn}, \href{[YOUR_GITHUB_URL]}{GitHub}}
+\name{Craig}{Sprecher}
+\address{Portland, Oregon}{}{}
+\phone[mobile]{503.680.3174}
+\email{csprech@gmail.com}
+\homepage{craigsprecher.com}
 
 \begin{document}
 \makecvtitle
@@ -105,12 +105,14 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Retail / Experience Design roles:**
+> Lead designer with 15+ years in brand creative, currently leading retail and experience creative for Nike across Asia Pacific and Latin America. Brings a systems-focused approach that keeps brand stories consistent across physical environments, digital and print, with a track record of taking work from concept to production for brands including Nike, adidas and Timberland.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Brand / Campaign Design roles:**
+> Brand and campaign designer with 15+ years across agency, freelance and in-house teams, most recently leading brand and campaign design at Hovercraft and retail creative at Nike. Builds flexible design systems that carry a campaign idea across digital, retail, OOH and print, from first concept to production-ready assets.
+
+**For Associate Creative Director / Design Lead roles:**
+> Lead-level designer with 15+ years of brand storytelling for sportswear and lifestyle brands, including Nike, adidas and Timberland. Combines creative direction on brand and retail experiences with hands-on craft, and brings a systems mindset that helps teams scale ideas across channels and markets. (TODO: add leadership scope once confirmed.)
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.
@@ -239,6 +241,8 @@ Cut the lowest-total-score line first, regardless of which section it sits in.
 ## Recommended Section Order
 
 The section order varies by role type:
+
+**For design roles (default for Craig):** keep education brief; portfolio link (craigsprecher.com) must be in the header.
 
 **For technical / data science / ML roles:**
 1. Profile statement / elevator pitch

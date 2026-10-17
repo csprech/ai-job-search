@@ -1,12 +1,11 @@
-%% Example CV - [YOUR_NAME]
+%% Master CV - Craig Sprecher
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
-%%
-%% SETUP: Run /setup to populate this with your actual information.
+%% Source: Craig-Sprecher_Resume-2026.pdf. Bullets are limited to what the
+%% resume supports; expand once Craig supplies project detail (never invent).
 %% Compile with: lualatex main_example.tex
-%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
-\documentclass[11pt,a4paper,sans]{moderncv}
+\documentclass[11pt,letterpaper,sans]{moderncv}
 \moderncvstyle{banking}
 \moderncvcolor{blue}
 
@@ -24,18 +23,19 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Craig Sprecher - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Craig}{Sprecher}
+\title{Lead, Brand Creative Retail \& Experience Designer}
+\address{Portland, Oregon}{}{}
+\phone[mobile]{503.680.3174}
+\email{csprech@gmail.com}
+\homepage{craigsprecher.com}
 
 \begin{document}
 
@@ -46,7 +46,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Lead designer with 15+ years in brand creative, focused on brand storytelling and retail experiences. Brings a systems-focused approach across physical environments, digital and print, and takes work from concept to production for brands including Nike, adidas and Timberland.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +56,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Brand Storytelling}: Brand creative and campaign concepts that translate a brand story across touchpoints.
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Retail \& Experience Design}: Retail and experiential creative for physical environments, most recently across Asia Pacific and Latin America for Nike.
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Design Systems}: Systems-focused approach that keeps brand and campaign work consistent across physical, digital and print.
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Concept to Production}: Digital, retail and OOH work delivered from first concept through production-ready assets.
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Tools}: Adobe CC (Photoshop, InDesign, Illustrator, After Effects), Figma, Miro, Microsoft Office; 3D and generative AI with Blender and ComfyUI.
 
 \end{itemize}
 
@@ -76,32 +76,37 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Mar 2026--Present}{Lead, Brand Creative Retail \& Experience Designer, APLA}{Nike}{Beaverton, OR}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Lead brand creative for retail and experiences across Asia Pacific and Latin America.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Jan 2022--Mar 2026}{Senior + Lead Designer}{Hovercraft}{Remote}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Led brand and campaign design with a systems-focused approach.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Jul 2019--Dec 2021}{Senior Graphic Designer}{Freelance}{Portland, OR}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Worked with Timberland and adidas to deliver production-ready assets and campaign visuals.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Apr 2013--Jun 2019}{Senior Designer}{Roundhouse}{Portland, OR}{}{\vspace{1pt}
+\begin{itemize}
+    \item Delivered digital, retail and OOH work from concept to production.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Apr 2010--Apr 2013}{Designer}{Roundhouse}{Portland, OR}{}{\vspace{1pt}
+\begin{itemize}
+    \item Supported concept development and asset creation across multiple mediums.
 \end{itemize}}}
 
 \end{itemize}
@@ -113,47 +118,9 @@
 \section{Education}
 \vspace{1pt}
 \begin{itemize}
-
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
-
-\vspace{3pt}
-
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
-
-\end{itemize}
-
-% ============================================================
-%     LANGUAGES
-% ============================================================
-
-\section{Languages}
-\vspace{1pt}
-\begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
-\end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item{\cventry{2009--2010}{Graphic Design}{Art Institute of Portland}{Portland, OR}{}{}}
+\item{\cventry{2008--2009}{Graphic Design}{Portland State University}{Portland, OR}{}{}}
+\item{\cventry{2006--2008}{International Business}{Oregon State University}{Corvallis, OR}{}{}}
 \end{itemize}
 
 % ============================================================

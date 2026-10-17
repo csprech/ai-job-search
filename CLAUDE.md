@@ -1,86 +1,73 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Craig Sprecher
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
-1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Craig Sprecher, helping with:
+1. **Job fit evaluation** - Assess job postings against Craig's profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
 4. **Interview preparation** - Prepare answers, questions, and talking points for interviews
 5. **Career strategy** - Advise on positioning and personal branding
 
+Full detail lives in `.claude/skills/job-application-assistant/01-candidate-profile.md`. Items marked TODO there are unconfirmed - never fill them with invented content.
+
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Craig Sprecher
+- **Location:** Portland, Oregon, USA (remote, or on-site/hybrid in the Portland metro only; no relocation)
+- **Contact:** 503.680.3174 | csprech@gmail.com | craigsprecher.com
+- **Languages:** English (native)
+- **Status:** Employed at Nike since Mar 2026; role may be affected by pending Nike layoffs. Discreet search - never mention layoffs in applications.
+- **Headline:** "Lead, Brand Creative Retail & Experience Designer"
+- **Compensation floor:** $165k+ base
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Graphic Design** (2009-2010) - Art Institute of Portland
+- **Graphic Design** (2008-2009) - Portland State University
+- **International Business** (2006-2008) - Oregon State University
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Lead, Brand Creative Retail & Experience Designer, APLA** (Mar 2026 - Present) - **Nike** (Beaverton, OR)
+  - Lead brand creative for retail and experiences across Asia Pacific and Latin America
+- **Senior + Lead Designer** (Jan 2022 - Mar 2026) - **Hovercraft** (Remote)
+  - Led brand and campaign design with a systems-focused approach
+- **Senior Graphic Designer** (Jul 2019 - Dec 2021) - **Freelance** (Portland, OR)
+  - Production-ready assets and campaign visuals for Timberland and adidas
+- **Senior Designer** (Apr 2013 - Jun 2019) - **Roundhouse** (Portland, OR)
+  - Digital, retail and OOH work from concept to production
+- **Designer** (Apr 2010 - Apr 2013) - **Roundhouse** (Portland, OR)
+  - Concept development and asset creation across multiple mediums
 
-### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+### Skills
+- **Primary:** Brand storytelling, retail & experience design, campaign design (digital/print/OOH), design systems, concept-to-production
+- **Secondary:** Motion (After Effects), 3D (Blender), generative AI imagery (ComfyUI)
+- **Domain:** Sportswear, footwear and outdoor brands (Nike, adidas, Timberland); agency and in-house
+- **Software:** Adobe CC (Photoshop, InDesign, Illustrator, After Effects), Figma, Miro, Microsoft Office, Blender, ComfyUI
 
-### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
-
-### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
-
-### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+### Certifications / Publications / Awards
+- None on file (TODO: confirm awards)
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- No formal assessment on file. Inferred from resume: systems thinker, strong concept-to-production follow-through, steady growth into leadership, curious about new tools. See `02-behavioral-profile.md`.
 
-### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+### Target Roles
+- Lead / Senior Retail, Experience, or Brand Designer
+- Step-up: Associate Creative Director, Design Manager, Brand Design Lead
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Sportswear / footwear / outdoor: adidas, Columbia, On, Hoka/Deckers, Arc'teryx, Patagonia, lululemon, KEEN
+- Agencies with brand/retail practices: Wieden+Kennedy and similar
+- Other consumer/lifestyle brands hiring remote brand or retail creative
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Base salary below $165k
+- On-site/hybrid outside Portland metro, or relocation
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
 - `cover_letters/` - LaTeX cover letters (custom cover.cls template)
 - `.claude/skills/` - AI skill definitions for the application workflow
-- `.agents/skills/` - Job search CLI tools
+- `.agents/skills/` - Job search CLI tools (Danish portals; not used for Craig's US search)
 
 ## Workflow for New Job Applications
 1. User provides a job posting (URL or text)

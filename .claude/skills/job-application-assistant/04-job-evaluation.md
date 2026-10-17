@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Brand creative and storytelling, retail/experiential design, campaign design (digital, print, OOH), brand/design systems, Adobe CC (Ps, Id, Ai), concept-to-production
+**Moderate match areas:** Figma, After Effects / motion, 3D (Blender), generative AI imagery (ComfyUI), creative leadership
+**Weak match areas:** UX/UI product design, front-end code, architecture/CAD-level store fixture design (Vectorworks, AutoCAD, SketchUp - unconfirmed), copywriting-led roles
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Sportswear/footwear/outdoor brand creative (Nike, adidas, Timberland); retail and experience design; agency brand + campaign design
+**Moderate:** Other consumer/lifestyle retail brands; in-house brand design teams in non-apparel sectors; experiential/event agencies
+**Limited:** Creative Director / Design Director with large people-management scope (confirm management history); digital product design
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -50,6 +50,8 @@ Does the role and company culture match the behavioral profile?
 - Within commute range: PASS
 - Remote with occasional office: PASS
 - Requires relocation: FAIL (deal-breaker)
+- On-site/hybrid outside Portland metro: FAIL
+- Base salary posted below $165k: FLAG (below floor; check total comp before rejecting)
 - Frequent international travel: FLAG (discuss with user)
 
 ### 5. Career Alignment & Motivation (0-100)
@@ -63,19 +65,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Land a Lead/Senior-level (or step-up: Associate Creative Director / Design Manager) brand or retail creative role at $165k+ base
+- Keep working on brand storytelling and retail/experience work for strong consumer brands
+- Remote or Portland-based (TODO: confirm with Craig whether in-house vs. agency matters)
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: TODO (ask Craig; presumed brand storytelling, retail environments, systems)
+- Tasks that drain: TODO (ask Craig)
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Currently employed at Nike but facing possible layoffs; stability of the next employer matters (check for recent layoffs/restructuring)
+- **Flexibility**: Remote or Portland metro only
+- **Professional development**: Continued creative leadership; 3D/generative AI tooling is a plus
 
 ### 6. Salary Benchmark (Optional)
 
@@ -129,7 +131,7 @@ Present the evaluation as:
 
 ### Company Research Checklist
 - [ ] Checked company website (mission, values, recent news)
-- [ ] Checked review sites (Glassdoor, Jobindex, etc.)
+- [ ] Checked review sites (Glassdoor, Comparably, Blind)
 - [ ] Checked LinkedIn for team size, recent hires, connections
 - [ ] Checked media for restructuring, growth, or workplace issues
 - [ ] Identified network contacts who may know the team/manager

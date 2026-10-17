@@ -10,44 +10,63 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+<!-- Full STAR examples need project detail from Craig. Do not draft S/T/A/R content he hasn't supplied. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+## STAR Candidates (Complete Manually)
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### Nike APLA retail & experience creative
+**Source:** Resume - Nike (Mar 2026 - Present)
+**What happened:** Leads brand creative for retail and experiences across Asia Pacific and Latin America.
+**Why it matters:** "Tell me about a project you led", "working across regions/cultures", "balancing global brand and local market needs"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### Hovercraft brand + campaign system
+**Source:** Resume - Hovercraft (Jan 2022 - Mar 2026)
+**What happened:** Led brand and campaign design with a systems-focused approach; promoted Senior -> Lead.
+**Why it matters:** "How do you build a design system?", "a time you were promoted / took on more", "leading creative without formal authority"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### adidas / Timberland freelance delivery
+**Source:** Resume - Freelance (Jul 2019 - Dec 2021)
+**What happened:** Delivered production-ready assets and campaign visuals for adidas and Timberland.
+**Why it matters:** "Working with tight deadlines", "managing client expectations", "brand guideline adherence"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Roundhouse concept-to-production (retail / OOH)
+**Source:** Resume - Roundhouse (2010 - 2019)
+**What happened:** Grew from Designer to Senior Designer delivering digital, retail and OOH work concept to production.
+**Why it matters:** "Walk me through your process", "a campaign you're proud of", "handling production constraints"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
 ## Common Tough Questions
 
-### "Why did you leave [previous company]?"
-> [PREPARE YOUR ANSWER - be honest, forward-looking, no negativity about former employer]
+### "Why are you looking after only ~7 months at Nike?"
+> Keep it forward-looking and factual. If layoffs have been announced publicly, it's fine to say the team is being restructured. Otherwise focus on what draws you to *this* role. Never criticize Nike. (TODO: refine with Craig once layoff news is clear.)
 
 ### "You don't have [specific skill/experience]."
-> [PREPARE YOUR ANSWER - acknowledge the gap, bridge to adjacent experience, show willingness to learn]
+> Acknowledge the gap, bridge to adjacent experience (systems thinking, concept-to-production across many media), and show learning speed (e.g. picking up Blender/ComfyUI).
 
 ### "Where do you see yourself in 5 years?"
-> [PREPARE YOUR ANSWER - show ambition aligned with the role's growth path]
+> TODO with Craig (e.g. growing into creative direction for brand/retail experiences).
 
 ### "What's your biggest weakness?"
-> [PREPARE YOUR ANSWER - genuine weakness with concrete mitigation strategy]
+> TODO with Craig.
 
 ### "Why this company specifically?"
 > Customize per company. Must reference: specific projects, company values, market position, or team structure. Never give a generic answer.
@@ -61,11 +80,11 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ### About the Team
 - "How big is the team, and how do you divide work?"
-- "What does the development/project lifecycle look like, from idea to production?"
+- "What does a project look like from brief to production, and who owns each stage?"
 - "How do you onboard new team members?"
 
 ### About Tech & Growth
-- "What's your current tech stack for [relevant area]?"
+- "What tools does the team use (Adobe, Figma, 3D, generative AI)?"
 - "Is there room to grow into more architectural or strategic decisions?"
 - "How does the team stay current with new tools and methods?"
 
